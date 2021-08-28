@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- logo -->
+        <div class="logo">log in</div>
+        <hr />
+      </header>
+
+      <!-- Log in Form -->
+      <form>
+        <div class="msg"></div>
+        <input type="text" id="text" placeholder="Enter your username" />
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <div class="btn">
+          <input type="button" value="Drawer 01" />
+        </div>
+      </form>
+
+      <!-- Keyborad Btn -->
+      <div class="keyboard">
+        <div class="keyboard-rows">
+          <div class="first-row">
+            <input type="button" value="`" />
+            <input type="button" value="1" />
+            <input type="button" value="2" />
+            <input type="button" value="3" />
+            <input type="button" value="4" />
+            <input type="button" value="5" />
+            <input type="button" value="6" />
+            <input type="button" value="7" />
+            <input type="button" value="8" />
+            <input type="button" value="9" />
+            <input type="button" value="0" />
+            <input type="button" value="-" />
+            <input type="button" value="*" />
+            <input type="button" class="back" value="Bksp" />
+          </div>
+
+          <div class="second-row">
+            <span></span><input type="button" class="tab" value="Tab" />
+            <input type="button" value="q" />
+            <input type="button" value="w" />
+            <input type="button" value="e" />
+            <input type="button" value="r" />
+            <input type="button" value="t" />
+            <input type="button" value="y" />
+            <input type="button" value="u" />
+            <input type="button" value="i" />
+            <input type="button" value="o" />
+            <input type="button" value="p" />
+            <input type="button" value="[" />
+            <input type="button" value="]" />
+            <input type="button" value="\" />
+          </div>
+
+          <div class="thrid-row">
+            <input type="button" value="a" />
+            <input type="button" value="s" />
+            <input type="button" value="d" />
+            <input type="button" value="f" />
+            <input type="button" value="g" />
+            <input type="button" value="h" />
+            <input type="button" value="j" />
+            <input type="button" value="k" />
+            <input type="button" value="l" />
+            <input type="button" value=";" />
+            <input type="button" value="'" />
+            <input type="button" class="color-btn" value="Enter" />
+          </div>
+          <div class="fouth-row">
+            <input type="button" value="Shift" />
+            <input type="button" value="z" />
+            <input type="button" value="x" />
+            <input type="button" value="c" />
+            <input type="button" value="v" />
+            <input type="button" value="b" />
+            <input type="button" value="n" />
+            <input type="button" value="m" />
+            <input type="button" value="," />
+            <input type="button" value="." />
+            <input type="button" value="/" />
+            <input type="button" value="Shift" />
+          </div>
+
+          <div class="fith-row">
+            <input type="button" class="color-btn" value="Accept" />
+            <input type="button" class="empty" value="" />
+            <input type="button" class="color-btn" value="Cancel" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Log Btn -->
+      <div class="log-btn">
+        <input type="button" id="login" value="Log In" />
+      </div>
+      <ul class="list"></ul>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
